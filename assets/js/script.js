@@ -119,7 +119,6 @@ function game() {
         direction = undefined;
         menu.style.display = 'flex';
         scoreFinal.innerHTML = score;
-        score = 0;
         canvas.style.filter = 'blur(3px)';
     }
 
