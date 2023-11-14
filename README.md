@@ -22,7 +22,7 @@ git clone https://01davisouzaf.github.io/simple-snake-game/
 - Canvas API.
   
 ## How controller the snake
-↑: Move snake up.
-↓: Move snake down.
-→: Move snake right.
-←: Move snake left.
+- ↑: Move snake up.
+- ↓: Move snake down.
+- →: Move snake right.
+- ←: Move snake left.
