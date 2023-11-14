@@ -6,7 +6,7 @@ This repository contains a snake game made using HTML, CSS and JavaScript. We ca
 ![gamepreview](imgs/game-preview.gif)
 
 ## See the project
-![link](https://01davisouzaf.github.io/simple-snake-game/).
+(https://01davisouzaf.github.io/simple-snake-game/).
 
 ## How to use
 1- Clone or download this repository.
