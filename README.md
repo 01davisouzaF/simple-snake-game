@@ -3,7 +3,7 @@
 This repository contains a snake game made using HTML, CSS and JavaScript. We can control the snake with the arrows keys.
 
 ## Game preview
-![gamepreview](./imgs/game-preview.gif)
+![gamepreview](imgs/game-preview.gif)
 
 ## See the project
 ![link](https://01davisouzaf.github.io/simple-snake-game/).
