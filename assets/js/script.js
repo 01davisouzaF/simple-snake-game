@@ -11,7 +11,7 @@ function game() {
     const size = 25;
     const initialPosition = {x: 250, y: 250};
     let snake = [initialPosition];
-    let foodPosition = {x: 175, y: 175}
+    let foodPosition = {x: 175, y: 175};
     
     let score = 0;
     let direction;
@@ -31,8 +31,8 @@ function game() {
      }
 
     function drawFood() {
-        ctx.fillStyle = '#EC7063'
-        ctx.fillRect(foodPosition.x, foodPosition.y, size, size)
+        ctx.fillStyle = '#EC7063';
+        ctx.fillRect(foodPosition.x, foodPosition.y, size, size);
     }
 
     function moveSnake() {
@@ -118,8 +118,8 @@ function game() {
     function gameOver() {
         direction = undefined;
         menu.style.display = 'flex';
-        scoreFinal.innerHTML = score.toString().padStart(2, '0');;
-        canvas.style.filter = 'blur(3px)'
+        scoreFinal.innerHTML = score.toString().padStart(2, '0');
+        canvas.style.filter = 'blur(3px)';
     }
 
     function clearDisplay() {
