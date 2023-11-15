@@ -118,8 +118,8 @@ function game() {
     function gameOver() {
         direction = undefined;
         menu.style.display = 'flex';
-        scoreFinal.innerHTML = score;
-        canvas.style.filter = 'blur(3px)';
+        scoreFinal.innerHTML = score.toString().padStart(2, '0');;
+        canvas.style.filter = 'blur(3px)'
     }
 
     function clearDisplay() {
@@ -128,7 +128,7 @@ function game() {
 
     function restartGame() {
         buttonPlay.addEventListener('click', () => {
-            score.innerHTML = '00';
+            scoreDisplay.innerHTML = '00';
             menu.style.display = 'none';
             canvas.style.filter = 'none';
 
